@@ -24,7 +24,7 @@ private:
     // Server:
     QTcpServer* m_server;
     QTcpSocket* m_socket;
-    quint16 m_port;
+    quint16 m_port = 1234;
 
     // Ansteuerung LEDs
     Gpio* m_gpio;
